@@ -13,15 +13,12 @@
   </head>
   <body style="background-color: bisque">
 <table align="center" border="0">
-    <tr align="right">
+    <tr>
         <th>
-            <img src="{% static 'images/standingboy.png' %}" height="40%" width="40%">
-        </th>
-        <th align="left">
   <div style="padding-top: 120px">
     <ul type="none">
       <li>
-          <button type="button" style="width: 300px" class="btn btn-danger"><a  href="{% url 'stockerone' %}" style="text-decoration: none"><h1 style="color: yellow">Stocker</h1> </a></button>
+          <button type="submit" style="width: 300px" class="btn btn-danger"><a  href="{% url 'stockerone' %}" style="text-decoration: none"><h1 style="color: yellow">Stocker</h1> </a></button>
       </li>
       <li>
           <button type="button" style="width: 300px" class="btn btn-warning"><a href="{% url 'add_dispatcher' %}" style="text-decoration: none"><h1 style="color: black">Dispatcher</h1></a></button>
@@ -41,6 +38,9 @@
 
     </ul>
   </div>
+        </th>
+        <th>
+            <img src="{% static 'images/standingboy4.png' %}" height="40%">
         </th>
         </tr>
 </table>
